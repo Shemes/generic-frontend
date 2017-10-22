@@ -1,0 +1,35 @@
+{
+  "name": "generic-frontend",
+  "version": "1.0.0",
+  "description": "Generic starter pack for my frontend needs.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build": "npm run prod",
+    "lint": "stylelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJSoler/generic-frontend.git"
+  },
+  "keywords": [],
+  "author": "Tomás Soler <tomas@tjsoler.me> (http://tjsoler.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TJSoler/generic-frontend/issues"
+  },
+  "homepage": "https://github.com/TJSoler/generic-frontend#readme",
+  "devDependencies": {
+    "laravel-mix": "^1.5.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-import": "^11.0.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+:root {
+    /* Colors */
+    --color-gray-dark: #4b4b4b;
+    --color-gray: #acacac;
+    --color-gray-light: #d7d7d7;
+    --color-gray-lighter: #ececec;
+    --color-white: #ffffff;
+
+    --color-primary: #336699;
+    --color-secondary: #669933;
+
+    --color-link: var(--color-primary);
+    --color-text: #363636;
+    --color-mute: var(--color-gray);
+
+    --color-input-text: var(--color-text);
+    --color-input-bg: var(--color-white);
+    --color-input-border: var(--color-gray-light);
+    --color-input-bg-disabled: var(--color-gray-dark);
+
+    --color-placeholder: var(--color-gray-light);
+}

@@ -1,0 +1,19 @@
+@import "variables";
+@import "modules/*"; /* You can just create and drop in modules in the folder. */
+
+::selection {
+    background: var(--color-primary);
+}
+
+body,
+html {
+    background: var(--color-gray-lighter);
+
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 500px;
+
+    & h1 {
+        color: var(--color-primary);
+    }
+}
