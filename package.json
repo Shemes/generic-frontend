@@ -35,5 +35,8 @@
     "purifycss-webpack": "^0.7.0",
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^17.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
