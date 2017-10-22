@@ -1,5 +1,18 @@
 # generic-frontend
 Generic starter pack for my frontend needs.
 
+## Contents:
+
+##### Styles
+- Postcss + cssnext
+- Linting with stylelint
+
+##### Scripts
+- ES2015 compilation
+- ESLint
+
 ## Usage:
-To be rethinked, for the time being this will work as a starter set of tools. Downlad as a zip and start using.
+- `npm run build`: Production ready build.
+- `npm run watch`: Watches the changes and recompiles the styles / scripts.
+- `npm run lint`: Lints scripts and styles.
+- `npm run lint-fix`: Will try to fix the linter errors.

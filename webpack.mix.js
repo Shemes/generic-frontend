@@ -6,6 +6,7 @@ mix.config.postCss = require('./postcss.config').plugins;
 mix
     .copy('src/index.html', 'dist/index.html')
     .postCss('src/css/app.css', 'dist/assets/css/')
+    .js('src/js/app.js', 'dist/assets/js/')
     .setPublicPath('dist');
 
 // Full API

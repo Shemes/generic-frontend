@@ -9,7 +9,10 @@
     "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "build": "npm run prod",
-    "lint": "stylelint"
+    "lint-css": "stylelint src/css/*.css",
+    "lint-js": "eslint src/js/*.js",
+    "lint": "npm run lint-css && npm run lint-js",
+    "lint-fix": "npm run lint-css -- --fix && npm run lint-js -- --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   },
   "homepage": "https://github.com/TJSoler/generic-frontend#readme",
   "devDependencies": {
+    "eslint": "^4.9.0",
     "laravel-mix": "^1.5.1",
     "postcss-cssnext": "^3.0.2",
     "postcss-easy-import": "^3.0.0",
