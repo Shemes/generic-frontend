@@ -4,10 +4,10 @@
     --color-gray: #acacac;
     --color-gray-light: #d7d7d7;
     --color-gray-lighter: #ececec;
-    --color-white: #ffffff;
+    --color-white: #fff;
 
-    --color-primary: #336699;
-    --color-secondary: #669933;
+    --color-primary: #369;
+    --color-secondary: #693;
 
     --color-link: var(--color-primary);
     --color-text: #363636;
