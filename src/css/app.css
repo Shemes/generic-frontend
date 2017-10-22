@@ -1,3 +1,4 @@
+@import "suitcss-base/lib/base";
 @import "variables";
 @import "modules/*"; /* You can just create and drop in modules in the folder. */
 
